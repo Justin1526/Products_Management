@@ -1,0 +1,10 @@
+export const initialProducts = [
+  { id: 1, name: 'Trail Backpack', category: 'Backpacks', description: 'A practical backpack for day hikes and outdoor trips.', specification: '35L capacity, water-resistant fabric, padded straps', rating: 4.5, price: 1450, quantity: 12, image: 'https://images.unsplash.com/photo-1622260614153-03223fb72052?auto=format&fit=crop&w=500&q=80' },
+  { id: 2, name: 'Camping Flashlight', category: 'Lighting', description: 'Compact light for camping and night walks.', specification: 'LED, rechargeable, 3 light modes', rating: 4.3, price: 480, quantity: 3, image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=500&q=80' },
+  { id: 3, name: 'Outdoor Helmet', category: 'Safety Gear', description: 'Protective helmet for outdoor activities.', specification: 'Adjustable fit, ventilated shell', rating: 4.4, price: 890, quantity: 8, image: 'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=500&q=80' },
+  { id: 4, name: 'Camping Tent', category: 'Camping', description: 'A compact tent for weekend camping.', specification: '2-person, rain fly, quick setup', rating: 4.7, price: 2350, quantity: 6, image: 'https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=500&q=80' },
+  { id: 5, name: 'Hiking Gloves', category: 'Clothing', description: 'Lightweight gloves for cool-weather hikes.', specification: 'Breathable fabric, grip palms, medium size', rating: 4.1, price: 320, quantity: 4, image: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=500&q=80' },
+  { id: 6, name: 'Insulated Water Bottle', category: 'Accessories', description: 'Reusable bottle for keeping drinks cool or warm.', specification: '750 ml, stainless steel, screw lid', rating: 4.6, price: 550, quantity: 15, image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=500&q=80' }
+];
+
+export const categories = ['All Products', 'Backpacks', 'Lighting', 'Safety Gear', 'Camping', 'Clothing', 'Accessories'];
